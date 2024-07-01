@@ -39,18 +39,26 @@
                       </div>
                     </div>
                   </div>
-                  <!-- second card -->
+                  <!-- ractangle card -->
                   <div class="card bg-base-100 w-96 shadow-xl">
                     <figure>
                       <img
                         src="images/rectangle.png"
-                        alt="Shoes" />
+                        alt="rectangle" />
                     </figure>
                     <div class="card-body">
-                      <h2 class="card-title">Shoes!</h2>
-                      <p>If a dog chews shoes whose shoes does he choose?</p>
-                      <div class="card-actions justify-end">
-                        <button class="btn btn-primary">Buy Now</button>
+                      <h2 class="card-title">Triangle</h2>
+                      <p>Area (A) = w * l</p>
+                      <p>
+                        <input id="width" class="border w-24 text-xl px-2 bg-gray-200" placeholder="width" type="text">
+                        <span class="ml-3 font-semibold">cm</span>
+                        <input id="length" class="border w-24 text-xl px-2 bg-gray-200 ml-4" placeholder="langth" type="text">
+                        <span class="ml-3 font-semibold">cm</span>
+                    </p>
+                    <p>Area: <span id="rectangle-area"> </span>cm<sup>2</sup></p>
+                     
+                      <div class="card-actions">
+                        <button id="btn-calculator-ractangle" class="btn btn-primary  w-full">Calculate</button>
                       </div>
                     </div>
                   </div>
